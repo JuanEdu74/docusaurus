@@ -8,12 +8,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://juanedu74.github.io',
-  baseUrl: '/docusaurus-codigofuente/',
+  baseUrl: '/docusaurus/',
 
   organizationName: 'JuanEdu74',
-  projectName: 'docusaurus-codigofuente',
+  projectName: 'docusaurus',
 
-  deploymentBranch: 'gh-pages', // rama de despliegue
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,12 +31,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/JuanEdu74/docusaurus-codigofuente/edit/main/',
+            'https://github.com/JuanEdu74/docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/JuanEdu74/docusaurus-codigofuente/edit/main/',
+            'https://github.com/JuanEdu74/docusaurus/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -53,7 +53,7 @@ const config = {
         title: 'Manual para implementar un gestor de contraseñas y su uso practico.',
         logo: {
           alt: 'Logo Código Fuente',
-          src: 'img/logo.png', // pon tu logo en static/img/logo.png
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -64,7 +64,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/JuanEdu74/docusaurus-codigofuente',
+            href: 'https://github.com/JuanEdu74/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
